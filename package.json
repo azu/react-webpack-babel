@@ -4,7 +4,8 @@
   "description": "React Webpack Babel Starter Kit",
   "main": "''",
   "scripts": {
-    "build": "webpack --config webpack.production.config.js --progress --profile --colors",
+    "parcel": "parcel build src/index.jsx",
+    "webpack": "webpack --config webpack.production.config.js",
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": " webpack-dashboard -- webpack-dev-server",
@@ -47,6 +48,7 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^21.2.1",
     "loglevel": "^1.6.0",
+    "parcel-bundler": "^1.1.0",
     "postcss-loader": "^2.0.8",
     "react-hot-loader": "^3.1.3",
     "react-router-dom": "^4.2.2",

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./AppContainer","loc":{"line":3,"column":38}}],"generated":{"js":"'use strict';\n\nmodule.exports.AppContainer = require('./AppContainer');"},"hash":"aeffc86f0c7190b9308cee7c7b4eb5ae"}
